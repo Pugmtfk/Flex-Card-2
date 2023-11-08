@@ -1,0 +1,73 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "สั่งสินค้าเข้า Stock",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "ราคาคุ้มค่า เช็คเลย",
+            "size": "20px",
+            "color": "#ffffff",
+            "weight": "bold",
+            "offsetTop": "4px"
+          }
+        ],
+        "offsetStart": "15px",
+        "offsetTop": "20px",
+        "offsetBottom": "14px",
+        "width": "325px",
+        "height": "88px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151931029980991538/Ellipse_12.png",
+        "position": "absolute",
+        "size": "80px",
+        "offsetStart": "210px",
+        "offsetTop": "30px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1151931432109867038/Group_6569.png",
+        "position": "absolute",
+        "size": "80px",
+        "offsetStart": "210px",
+        "offsetTop": "14px"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "270deg",
+      "startColor": "#EE7623",
+      "endColor": "#FF8A00"
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูสินค้า",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "color": "#EE7623"
+      }
+    ]
+  }
+}
